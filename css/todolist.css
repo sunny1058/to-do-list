@@ -1,0 +1,155 @@
+.dotted-circle:before {
+  content: "\f058";
+}
+.clear:before {
+  content: "\f00d";
+}
+.dotted-circle-checked:before{
+    content:"\f110"
+        
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    font-family: sans-serif;
+}
+
+
+.container{
+    padding:10px;
+    width:380px;
+}
+
+
+.header{
+    width: 380px;
+    height:200px;
+    background-image:url(https://www.sciencenewsforstudents.org/wp-content/uploads/2019/11/100819_JL_groundwater_feat-1028x579.jpg);
+    background-size: 100% 200%;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+#date{
+    position: absolute;
+    bottom: 1rem;
+    left: 0.5rem;
+    color: white;
+    font-size: 3rem;
+    font-family:sans-serif;
+}
+
+/*content*/
+.content{
+    width:375px;
+    height: 370px;
+    max-height:350px;
+    background-color:white;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:1px;;
+    margin:0;
+}
+.item{
+    width:375px;
+    height: 48px;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    list-style: none;
+    padding:1px;
+    margin:0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 24px;
+    padding-left:6px;
+    left:10px;
+    top:5px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.dotted-circle{
+    color:chartreuse;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 1.5rem;
+    left:60px;
+    top:5px;
+    background-color:white;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : darkgrey;
+}
+.item i.de{
+    position: absolute;
+    font-size: 20px;
+    right:17px;
+    top:10px;
+}
+.item i.de:hover{
+    color:red;
+    cursor: pointer;
+}
+/*add-list*/
+.add-list{
+    position: relative;
+    width: 340px;
+    height:45px;
+    background-color: white;
+    padding: 10px;
+    border-top: 1px solid transparent;
+}
+.add-list i{
+    position: absolute;
+    font-size: 2.5rem;
+    color:darkcyan;
+}
+
+.add-list input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
